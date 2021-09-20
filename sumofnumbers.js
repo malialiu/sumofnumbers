@@ -26,7 +26,7 @@ function sumRecursion(nums,length){
 }
 
 function sumTheSimpleWay(nums){
-  return _.reduce(nums,function(memo,num){return memo + num});
+  return _.reduce(nums,function(memo, num){return memo + num});
 }
 
 const nums = [1,2,3,4,5];
